@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+footer {
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    color: white;
+}
+.leftfooter {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    border-bottom: .1px solid white;
+}
+.leftfooter li {
+    list-style-type: none;
+    width: 60%;
+    padding: 20px;
+}
+.width {
+    width: 80%;
+    margin: auto;
+}
+.smoke {
+    padding: 1px;
+    background-color: rgb(71, 67, 67);
+}
+.meg {
+    padding: 20px;
+    gap: 10px;
+}
+.map {
+    padding: 20px;
+}
+.more {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+.foot {
+    display: flex;
+    align-items: center;
+}
+.hire_us {
+    /* padding: 20px; */
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+    border-radius: 100px;
+    background-color: burlywood;
+}
+/* .hire p{
+    padding: 70px;
+} */
+.bl_ctn {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+.blogs {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.J_bg {
+    background-image: url(/image/heading-divider.png);
+    height: 3px;
+    width: 200px;
+    background-size: contain;
+    background-position: center;
+}
+.J {
+    display: flex;
+    flex-direction: row;
+}
+.J_one {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.J_ctn {
+    padding-top: 50px;
+}
